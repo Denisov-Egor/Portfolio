@@ -5,17 +5,17 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,501,400,700&display=swap" rel="stylesheet">
-    <title>Portfolio </title>
+    <title>Portfolio</title>
   </head>
   <body>
     <header class = "header container">
       <nav>
         <ul class="header__menu">
           <li>
-            <a class="header__link" href="#about">О мне</a>
+            <a class="header__link" href="#about">Обо мне</a>
           </li>
           <li>
-            <a class="header__link" href="#featured">Работа</a>
+            <a class="header__link" href="#featured">Портфолио</a>
           </li>
           <li>
             <a class="header__link" href="#contact">Контакты</a>
@@ -38,8 +38,9 @@
               </svg>
             </button>
           </li>
+          
           <li> 
-            <a class="header__resume btn" href="./styles/Asset/Resume.pdf" download>Resume</a>
+            <a class="header__resume btn" href="./styles/Asset/Resume.pdf" download>Резюме</a>
           </li>
         </ul>
         <button class="header__bars">
@@ -66,15 +67,54 @@
           Привет, меня зовут Егор 👋
         </h2>
         <h1 class="hero__title">
-          "Backend-DEVELOPER."
+          Backend-DEVELOPER.
         </h1>
         <p class="hero__description"> 
-          В области создания игр на движках <strong>"Unreal Engine & Unity"</strong>
+          В области создания игр на движках <strong>Unreal Engine 5 & Unity</strong>
           ,так-же я новичок в разработке веб-сайтов.
         </p>
-        <a class="hero__btn btn" href="#">Наверх</a>
+        <a class="hero__btn btn" href="#">Обо мне</a>
       </selection>
-      <selection></selection>
+      <section id="about" class="about container section">
+        <div class="about__content">
+          <h2 class="about__title">Обо мне</h2>
+          <p class="about__description">
+            Всем привет! 
+              <strong>Я Егор, бэкенд-разработчик игр из Пензы.</strong> 
+              Я просыпаюсь утром, беру чашку чая, 
+              открываю свой ноутбук и создаю вещи, 
+              которые живут в Интернете весь день,
+              каждый день.
+          </p>
+          <p class="about__description">
+            Люди, которые меня знают, 
+              говорят, что я одержим разработкой игр,
+              ведь это правда,
+              <a>я очень целеустремлен и люблю узнавать что-то новое.</a>
+          </p>
+          <hr class="about__hr" />
+          <h3 class="about__subtitle">Технологии</h3>
+          <div class="about__ul-container">
+            <ul class="about__ul">
+              <li class="about__list">👍 Unreal Engine 5</li>
+              <li class="about__list">👍 Unity</li>
+              <li class="about__list">👍 Blender</li>
+              <li class="about__list">👍 C++</li>
+              <li class="about__list">👍 C#</li>
+            </ul>
+            <ul class="about__ul">
+              <li class="about__list">👎 JavaScript </li>
+              <li class="about__list">👎 CSS</li>
+              <li class="about__list">👎 HTML</li>
+              <li class="about__list">👎 ReactJS</li>
+              <li class="about__list">👎 NextJS</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <img class="about__img " src="./styles/Asset/about.jpg" alt="Profile picture"/>
+        </div>
+      </section>
       <selection></selection>
       <selection></selection>
       <selection></selection>
