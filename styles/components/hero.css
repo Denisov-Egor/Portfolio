@@ -15,13 +15,13 @@
 }
 
 .hero__subtitle {
-    color: var(--clr-stale800);
+    color: var(--clr-slate800);
     font-size: var(--size-base);
     line-height: 0.9;
 }
 
 .hero__title {
-    color: var(--clr-stale400);
+    color: var(--clr-slate600);
     text-transform: uppercase;
     font-size: var(--size-4x1);
     letter-spacing: -0.05rem;
@@ -31,7 +31,7 @@
 .hero__description {
     max-width: 600ch;
     font-size: var(--size-sm);
-    color: var(--clr-stale600);
+    color: var(--clr-slate600);
 }
 
 .hero__btn {
