@@ -5,6 +5,8 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,501,400,700&display=swap" rel="stylesheet">
+    <meta name="description" content="My Portfolio website">
+    <meta name="keywords" content="web design, html, scc, js">
     <title>Portfolio</title>
   </head>
   <body>
@@ -22,7 +24,10 @@
           </li>
           <li class="header__line"></li>
           <li>
-            <button id="theme-toggle" class="header__sun"> 
+            <button 
+            id="theme-toggle" 
+            aria-label="theme-toggle" 
+            class="header__sun"> 
               <svg 
               xmlns="http://www.w3.org/2000/svg" 
               fill="none" viewBox="0 0 24 24" 
@@ -42,7 +47,9 @@
             <a class="header__resume btn" href="./styles/Asset/Resume.pdf" download>Резюме</a>
           </li>
         </ul>
-        <button class="header__bars">
+        <button 
+        aria-label="mobile-nav__btn" 
+        class="header__bars">
           <svg 
           xmlns="http://www.w3.org/2000/svg" 
           fill="none" viewBox="0 0 24 24" stroke-width="1.5" 
@@ -73,7 +80,10 @@
             </li>
             <li class="mobile-nav__link-line"></li>
             <li>
-              <button id="theme-toggle" class="mobile-nav__sun">
+              <button 
+              aria-label="theme-toggle btn" 
+              id="theme-toggle" 
+              class="mobile-nav__sun">
                 <svg 
                 xmlns="http://www.w3.org/2000/svg" 
                 fill="none" viewBox="0 0 24 24" 
@@ -160,7 +170,12 @@
         <h3 class="featured__subtitle">Рекомендуемый проект</h3>
         <div class="featured__wrapper">
         <h2 class="featured__titel">УБИЙСТВО ДРАКОНА</h2>
-        <a class="featured__link" href="https://github.com/Denisov-Egor/FPS-Shooter" target="_blank" rel="noopener noopener">
+        <a 
+        aria-label="link featured project"
+        class="featured__link" 
+        href="https://github.com/Denisov-Egor/FPS-Shooter" 
+        target="_blank" 
+        rel="noopener noopener">
           <svg 
           xmlns="http://www.w3.org/2000/svg" 
           fill="none" viewBox="0 0 24 24" 
